@@ -1,0 +1,50 @@
+{
+  "Categorias": {
+    "resource": "/{proxy+}",
+    "path": "/api/resourcepath",
+    "httpMethod": "GET",
+    "queryStringParameters": null,
+    "pathParameters": {
+      "cmd": "Categorias"
+    }
+  },
+  "Scrapear": {
+    "resource": "/{proxy+}",
+    "path": "/api/resourcepath",
+    "httpMethod": "POST",
+    "queryStringParameters": null,
+    "pathParameters": {
+      "cmd": "Scrapear"
+    }
+  },
+  "PorCategoria": {
+    "resource": "/{proxy+}",
+    "path": "/api/resourcepath",
+    "httpMethod": "POST",
+    "queryStringParameters": null,
+    "pathParameters": {
+      "cmd": "PorCategoria",
+      "Categoria": "Motor"
+    }
+  },
+  "PorSubCategoria": {
+    "resource": "/{proxy+}",
+    "path": "/api/resourcepath",
+    "httpMethod": "POST",
+    "queryStringParameters": null,
+    "pathParameters": {
+      "cmd": "PorSubCategoria",
+      "Categoria": "Motor",
+      "SubCategoria": "Motos de cross"
+    }
+  },
+  "GetCategoriesDB": {
+    "resource": "/{proxy+}",
+    "path": "/api/resourcepath",
+    "httpMethod": "POST",
+    "queryStringParameters": null,
+    "pathParameters": {
+      "cmd": "CategoriasDB"
+    }
+  }
+}
